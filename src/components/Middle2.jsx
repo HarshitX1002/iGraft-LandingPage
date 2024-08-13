@@ -1,6 +1,6 @@
 import { Container, Grid, Typography, Box, } from '@mui/material'
 import React from 'react'
-import photo1 from { photo1 }
+import photo1 from "/FB_LHR_desktop_f5854a7360_b847a9d033.webp"
 
 
 const Middle2 = () =>
@@ -66,7 +66,7 @@ const Middle2 = () =>
             textAlign="center"
             padding={2}>
             <img
-              src={photo1}
+              src="/FB_LHR_desktop_f5854a7360_b847a9d033.webp"
               alt="Rounded"
               style={{ alignItems: "center", borderRadius: '10%', width: '110px', height: '100px' }}
             >
