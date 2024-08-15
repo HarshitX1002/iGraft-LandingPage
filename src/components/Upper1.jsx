@@ -3,7 +3,6 @@ import { Box, Container, Typography, Card } from '@mui/material'
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import { CardActionArea } from '@mui/material';
-import photo1 from "/FB_LHR_desktop_f5854a7360_b847a9d033.webp";
 
 const Upper1 = () =>
 {
@@ -20,7 +19,7 @@ const Upper1 = () =>
             textAlign="center"
             padding={2}>
             <img
-              src={photo1}
+              src="/iGraft-landingpage/FB_LHR_desktop_f5854a7360_b847a9d033.jpg"
               alt="Rounded"
               style={{ alignItems: "center", borderRadius: '10%', width: '110px', height: '100px' }}
             >
@@ -36,7 +35,7 @@ const Upper1 = () =>
             textAlign="center"
             padding={2}>
             <img
-              src="/FB_LHR_desktop_f5854a7360_b847a9d033.webp"
+              src="/iGraft-landingpage/FB_LHR_desktop_f5854a7360_b847a9d033.jpg"
               alt="Rounded"
               style={{ alignItems: "center", borderRadius: '10%', width: '110px', height: '100px' }}
             >
@@ -52,7 +51,7 @@ const Upper1 = () =>
             textAlign="center"
             padding={2}>
             <img
-              src="/FB_LHR_desktop_f5854a7360_b847a9d033.webp"
+              src="/iGraft-landingpage/FB_LHR_desktop_f5854a7360_b847a9d033.jpg"
               alt="Rounded"
               style={{ alignItems: "center", borderRadius: '10%', width: '110px', height: '100px' }}
             >
@@ -68,7 +67,7 @@ const Upper1 = () =>
             textAlign="center"
             padding={2}>
             <img
-              src="/FB_LHR_desktop_f5854a7360_b847a9d033.webp"
+              src="/iGraft-landingpage/FB_LHR_desktop_f5854a7360_b847a9d033.jpg"
               alt="Rounded"
               style={{ alignItems: "center", borderRadius: '10%', width: '110px', height: '100px' }}
             >
@@ -84,7 +83,7 @@ const Upper1 = () =>
             textAlign="center"
             padding={2}>
             <img
-              src="/FB_LHR_desktop_f5854a7360_b847a9d033.webp"
+              src="/iGraft-landingpage/FB_LHR_desktop_f5854a7360_b847a9d033.jpg"
               alt="Rounded"
               style={{ alignItems: "center", borderRadius: '10%', width: '110px', height: '100px' }}
             >
@@ -100,7 +99,7 @@ const Upper1 = () =>
             textAlign="center"
             padding={2}>
             <img
-              src="/FB_LHR_desktop_f5854a7360_b847a9d033.webp"
+              src="/iGraft-landingpage/FB_LHR_desktop_f5854a7360_b847a9d033.jpg"
               alt="Rounded"
               style={{ alignItems: "center", borderRadius: '10%', width: '110px', height: '100px' }}
             >
@@ -124,7 +123,7 @@ const Upper1 = () =>
                 component="img"
                 height="250"
                 length="100"
-                image="/FB_LHR_desktop_f5854a7360_b847a9d033.webp"
+                image="/iGraft-landingpage/FB_LHR_desktop_f5854a7360_b847a9d033.jpg"
                 alt="lady image"
               />
               <CardContent>
@@ -142,7 +141,7 @@ const Upper1 = () =>
               <CardMedia
                 component="img"
                 height="250"
-                image="/FB_LHR_desktop_f5854a7360_b847a9d033.webp"
+                image="/iGraft-landingpage/FB_LHR_desktop_f5854a7360_b847a9d033.jpg"
                 alt="green iguana"
               />
               <CardContent>
@@ -160,7 +159,7 @@ const Upper1 = () =>
               <CardMedia
                 component="img"
                 height="250"
-                image="/FB_LHR_desktop_f5854a7360_b847a9d033.webp"
+                image="/iGraft-landingpage/FB_LHR_desktop_f5854a7360_b847a9d033.jpg"
                 alt="green iguana"
               />
               <CardContent>

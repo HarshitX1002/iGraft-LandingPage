@@ -14,7 +14,7 @@ const Upper3 = () =>
             <Box sx={{ marginTop: 5, marginBottom: 20, marginLeft: 30, marginRight: 20, display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)' }}>
                 <Typography sx={{ width: '50%', fontSize: 30, fontWeight: 'bold' }}>
                     <img
-                        src="/FB_LHR_desktop_f5854a7360_b847a9d033.webp"
+                        src="/iGraft-landingpage/FB_LHR_desktop_f5854a7360_b847a9d033.jpg"
                         alt="Rounded"
                         style={{ alignItems: "center", borderRadius: '50%', width: '110px', height: '100px' }}
                     >
@@ -24,7 +24,7 @@ const Upper3 = () =>
                 </Typography>
                 <Typography sx={{ width: '50%', fontSize: 30, fontWeight: 'bold' }}>
                     <img
-                        src="/FB_LHR_desktop_f5854a7360_b847a9d033.webp"
+                        src="/iGraft-landingpage/FB_LHR_desktop_f5854a7360_b847a9d033.jpg"
                         alt="Rounded"
                         style={{ alignItems: "center", borderRadius: '50%', width: '110px', height: '100px' }}
                     >
@@ -34,7 +34,7 @@ const Upper3 = () =>
                 </Typography>
                 <Typography sx={{ width: '50%', fontSize: 30, fontWeight: 'bold' }}>
                     <img
-                        src="/FB_LHR_desktop_f5854a7360_b847a9d033.webp"
+                        src="/iGraft-landingpage/FB_LHR_desktop_f5854a7360_b847a9d033.jpg"
                         alt="Rounded"
                         style={{ alignItems: "center", borderRadius: '50%', width: '110px', height: '100px' }}
                     >
@@ -46,7 +46,7 @@ const Upper3 = () =>
             <Box sx={{ marginTop: 10, marginBottom: 20, marginLeft: 30, marginRight: 20, display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)' }}>
                 <Typography sx={{ width: '50%', fontSize: 30, fontWeight: 'bold' }}>
                     <img
-                        src="/FB_LHR_desktop_f5854a7360_b847a9d033.webp"
+                        src="/iGraft-landingpage/FB_LHR_desktop_f5854a7360_b847a9d033.jpg"
                         alt="Rounded"
                         style={{ alignItems: "center", borderRadius: '50%', width: '110px', height: '100px' }}
                     >
@@ -57,7 +57,7 @@ const Upper3 = () =>
                 </Typography>
                 <Typography sx={{ width: '50%', fontSize: 30, fontWeight: 'bold' }}>
                     <img
-                        src="/FB_LHR_desktop_f5854a7360_b847a9d033.webp"
+                        src="/iGraft-landingpage/FB_LHR_desktop_f5854a7360_b847a9d033.jpg"
                         alt="Rounded"
                         style={{ alignItems: "center", borderRadius: '50%', width: '110px', height: '100px' }}
                     >
@@ -67,7 +67,7 @@ const Upper3 = () =>
                 </Typography>
                 <Typography sx={{ width: '50%', fontSize: 30, fontWeight: 'bold' }}>
                     <img
-                        src="/FB_LHR_desktop_f5854a7360_b847a9d033.webp"
+                        src="/iGraft-landingpage/FB_LHR_desktop_f5854a7360_b847a9d033.jpg"
                         alt="Rounded"
                         style={{ alignItems: "center", borderRadius: '50%', width: '110px', height: '100px' }}
                     >

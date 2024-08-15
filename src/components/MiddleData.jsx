@@ -19,7 +19,7 @@ const MiddleData = () =>
             <CardMedia
               component="img"
               height="250"
-              image="/FB_LHR_desktop_f5854a7360_b847a9d033.webp"
+              image="/iGraft-landingpage/FB_LHR_desktop_f5854a7360_b847a9d033.jpg"
               alt="green iguana"
             />
             <CardContent>
@@ -37,7 +37,7 @@ const MiddleData = () =>
             <CardMedia
               component="img"
               height="250"
-              image="/FB_LHR_desktop_f5854a7360_b847a9d033.webp"
+              image="/iGraft-landingpage/FB_LHR_desktop_f5854a7360_b847a9d033.jpg"
               alt="green iguana"
             />
             <CardContent>
@@ -55,7 +55,7 @@ const MiddleData = () =>
             <CardMedia
               component="img"
               height="250"
-              image="/FB_LHR_desktop_f5854a7360_b847a9d033.webp"
+              image="/iGraft-landingpage/FB_LHR_desktop_f5854a7360_b847a9d033.jpg"
               alt="green iguana"
             />
             <CardContent>
@@ -84,7 +84,7 @@ const MiddleData = () =>
             <CardMedia
               component="img"
               height="250"
-              image="/FB_LHR_desktop_f5854a7360_b847a9d033.webp"
+              image="/iGraft-landingpage/FB_LHR_desktop_f5854a7360_b847a9d033.jpg"
               alt="green iguana"
             />
             <CardContent>
@@ -102,7 +102,7 @@ const MiddleData = () =>
             <CardMedia
               component="img"
               height="250"
-              image="/FB_LHR_desktop_f5854a7360_b847a9d033.webp"
+              image="/iGraft-landingpage/FB_LHR_desktop_f5854a7360_b847a9d033.jpg"
               alt="green iguana"
             />
             <CardContent>
@@ -120,7 +120,7 @@ const MiddleData = () =>
             <CardMedia
               component="img"
               height="250"
-              image="/FB_LHR_desktop_f5854a7360_b847a9d033.webp"
+              image="/iGraft-landingpage/FB_LHR_desktop_f5854a7360_b847a9d033.jpg"
               alt="green iguana"
             />
             <CardContent>
