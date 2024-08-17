@@ -21,7 +21,7 @@ const Upper1 = () =>
             textAlign="center"
             padding={2}>
             <img
-              src="/iGraft-landingpage/FB_LHR_desktop_f5854a7360_b847a9d033.jpg"
+              src="/FB_LHR_desktop_f5854a7360_b847a9d033.jpg"
               alt="Rounded"
               style={{ alignItems: "center", borderRadius: '10%', width: '110px', height: '100px' }}
             >
@@ -37,7 +37,7 @@ const Upper1 = () =>
             textAlign="center"
             padding={2}>
             <img
-              src="/iGraft-landingpage/FB_LHR_desktop_f5854a7360_b847a9d033.jpg"
+              src="/FB_LHR_desktop_f5854a7360_b847a9d033.jpg"
               alt="Rounded"
               style={{ alignItems: "center", borderRadius: '10%', width: '110px', height: '100px' }}
             >
@@ -53,7 +53,7 @@ const Upper1 = () =>
             textAlign="center"
             padding={2}>
             <img
-              src="/iGraft-landingpage/FB_LHR_desktop_f5854a7360_b847a9d033.jpg"
+              src="/FB_LHR_desktop_f5854a7360_b847a9d033.jpg"
               alt="Rounded"
               style={{ alignItems: "center", borderRadius: '10%', width: '110px', height: '100px' }}
             >
@@ -69,7 +69,7 @@ const Upper1 = () =>
             textAlign="center"
             padding={2}>
             <img
-              src="/iGraft-landingpage/FB_LHR_desktop_f5854a7360_b847a9d033.jpg"
+              src="/FB_LHR_desktop_f5854a7360_b847a9d033.jpg"
               alt="Rounded"
               style={{ alignItems: "center", borderRadius: '10%', width: '110px', height: '100px' }}
             >
@@ -85,7 +85,7 @@ const Upper1 = () =>
             textAlign="center"
             padding={2}>
             <img
-              src="/iGraft-landingpage/FB_LHR_desktop_f5854a7360_b847a9d033.jpg"
+              src="/FB_LHR_desktop_f5854a7360_b847a9d033.jpg"
               alt="Rounded"
               style={{ alignItems: "center", borderRadius: '10%', width: '110px', height: '100px' }}
             >
@@ -101,7 +101,7 @@ const Upper1 = () =>
             textAlign="center"
             padding={2}>
             <img
-              src="/iGraft-landingpage/FB_LHR_desktop_f5854a7360_b847a9d033.jpg"
+              src="/FB_LHR_desktop_f5854a7360_b847a9d033.jpg"
               alt="Rounded"
               style={{ alignItems: "center", borderRadius: '10%', width: '110px', height: '100px' }}
             >
@@ -128,7 +128,7 @@ const Upper1 = () =>
                 component="img"
                 height="250"
                 length="100"
-                image="/iGraft-landingpage/FB_LHR_desktop_f5854a7360_b847a9d033.jpg"
+                image="/FB_LHR_desktop_f5854a7360_b847a9d033.jpg"
                 alt="lady image"
               />
               <CardContent>
@@ -146,7 +146,7 @@ const Upper1 = () =>
               <CardMedia
                 component="img"
                 height="250"
-                image="/iGraft-landingpage/FB_LHR_desktop_f5854a7360_b847a9d033.jpg"
+                image="/FB_LHR_desktop_f5854a7360_b847a9d033.jpg"
                 alt="green iguana"
               />
               <CardContent>
@@ -164,7 +164,7 @@ const Upper1 = () =>
               <CardMedia
                 component="img"
                 height="250"
-                image="/iGraft-landingpage/FB_LHR_desktop_f5854a7360_b847a9d033.jpg"
+                image="/FB_LHR_desktop_f5854a7360_b847a9d033.jpg"
                 alt="green iguana"
               />
               <CardContent>
