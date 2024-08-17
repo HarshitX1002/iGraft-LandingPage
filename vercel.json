@@ -1,5 +1,5 @@
 {
   "rewrites": [
-    { "source": "/iGraft-landingpage/(.*)", "destination": "/iGraft-landingpage/" }
+    { "source": "/iGraft-landingpage/(.*)", "destination": "/iGraft-landingpage/$1" }
   ]
 }
