@@ -21,7 +21,7 @@ const Middle2 = () =>
             textAlign="center"
             padding={2}>
             <img
-              src="/iGraft-landingpage/FB_LHR_desktop_f5854a7360_b847a9d033.jpg"
+              src="/FB_LHR_desktop_f5854a7360_b847a9d033.jpg"
               alt="Rounded"
               style={{ alignItems: "center", borderRadius: '10%', width: '110px', height: '100px' }}
             >
@@ -45,7 +45,7 @@ const Middle2 = () =>
             marginBottom={3}>
 
             <img
-              src="/iGraft-landingpage/FB_LHR_desktop_f5854a7360_b847a9d033.jpg"
+              src="/FB_LHR_desktop_f5854a7360_b847a9d033.jpg"
               alt="Rounded"
               style={{ alignItems: "center", borderRadius: '10%', width: '110px', height: '100px' }}
             >
@@ -66,7 +66,7 @@ const Middle2 = () =>
             textAlign="center"
             padding={2}>
             <img
-              src="/iGraft-landingpage/FB_LHR_desktop_f5854a7360_b847a9d033.jpg"
+              src="/FB_LHR_desktop_f5854a7360_b847a9d033.jpg"
               alt="Rounded"
               style={{ alignItems: "center", borderRadius: '10%', width: '110px', height: '100px' }}
             >
@@ -88,7 +88,7 @@ const Middle2 = () =>
             textAlign="center"
             padding={2}>
             <img
-              src="/iGraft-landingpage/FB_LHR_desktop_f5854a7360_b847a9d033.jpg"
+              src="/FB_LHR_desktop_f5854a7360_b847a9d033.jpg"
               alt="Rounded"
               style={{ alignItems: "center", borderRadius: '10%', width: '110px', height: '100px' }}
             >
