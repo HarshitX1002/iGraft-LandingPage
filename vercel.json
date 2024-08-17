@@ -1,0 +1,5 @@
+{
+  "rewrites": [
+    { "source": "/iGraft-landingpage/(.*)", "destination": "/iGraft-landingpage/" }
+  ]
+}
