@@ -4,14 +4,17 @@ import React from 'react'
 const Upper3 = () =>
 {
     return (
-        <Container sx={{ backgroundColor: "#a9d6e5", marginBottom: 1, marginTop: 1, border: 0, padding: 1 }}>
-            <Typography sx={{ color: "#ba181b", textAlign: 'center', fontSize: 40, fontWeight: "bold" }}>
-                Why iGraft is different?
-            </Typography>
-            <Typography sx={{ textAlign: 'center', variant: "body2", color: "text.secondary", fontWeight: "bold" }}>
-                6 reasons to try us out
-            </Typography>
-            <Box sx={{ marginTop: 5, marginBottom: 20, marginLeft: 30, marginRight: 20, display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)' }}>
+        <Container sx={{ backgroundColor: "#a9d6e5", marginBottom: 1, marginTop: 1, border: 0, padding: { xs: 2, sm: 4, md: 6 }, width: "100vw" }}>
+            <Box sx={{ width: { xs: '100%', sm: '80%', md: '60%', lg: '50%' } }}>
+                <Typography sx={{ color: "#ba181b", marginLeft: 10, fontSize: 40, fontWeight: "bold", }}>
+                    Why iGraft is different?
+                </Typography>
+                <Typography sx={{ marginLeft: 10, variant: "body2", color: "text.secondary", fontWeight: "bold", }}>
+                    6 reasons to try us out
+                </Typography>
+            </Box>
+
+            <Box sx={{ marginTop: 5, marginBottom: 10, marginLeft: 10, marginRight: 10, display: 'grid', gridTemplateColumns: { xs: 'repeat(auto-fit, minmax(100px, 1fr))', sm: 'repeat(auto-fit, minmax(150px, 1fr))', }, gap: 2, flexWrap: 'wrap' }}>
                 <Typography sx={{ width: '50%', fontSize: 30, fontWeight: 'bold' }}>
                     <img
                         src="/iGraft-landingpage/FB_LHR_desktop_f5854a7360_b847a9d033.jpg"
@@ -43,7 +46,7 @@ const Upper3 = () =>
                     <Typography sx={{}}>The most advanced in India</Typography>
                 </Typography>
             </Box>
-            <Box sx={{ marginTop: 10, marginBottom: 20, marginLeft: 30, marginRight: 20, display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)' }}>
+            <Box sx={{ marginTop: 5, marginBottom: 10, marginLeft: 10, marginRight: 10, display: 'grid', gridTemplateColumns: { xs: 'repeat(auto-fit, minmax(100px, 1fr))', sm: 'repeat(auto-fit, minmax(150px, 1fr))', }, gap: 2, flexWrap: 'wrap' }}>
                 <Typography sx={{ width: '50%', fontSize: 30, fontWeight: 'bold' }}>
                     <img
                         src="/iGraft-landingpage/FB_LHR_desktop_f5854a7360_b847a9d033.jpg"

@@ -3,14 +3,16 @@ import { Box, Container, Typography, Card } from '@mui/material'
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import { CardActionArea } from '@mui/material';
-
+//flexDirection={{ xs: 'column', sm: 'row' }} // Stack vertically on xs screens, horizontally on sm and up
+//p = {{ xs: 2, sm: 4 }}
 const Upper1 = () =>
 {
   return (
     <>
       <Box sx={{ marginTop: 40 }}>
         <Typography sx={{ fontWeight: "bold", color: 'error.main', fontSize: 30, textAlign: 'center' }}>Skin care services</Typography>
-        <Box sx={{ display: 'flex', justifyContent: 'center', flexDirection: "row", alignItems: "center" }}>
+
+        <Box sx={{ display: 'flex', justifyContent: 'center', flexDirection: 'row', alignItems: "center", flexWrap: 'wrap' }}>
           <Box
             display="flex"
             flexDirection="column"
@@ -110,14 +112,17 @@ const Upper1 = () =>
 
         </Box>
       </Box>
-      <Box sx={{ backgroundColor: '#a9d6e5', marginTop: 1, marginBottom: 1 }}>
-        <Typography sx={{ marginLeft: 86, color: 'red', fontSize: 30 }}>best selling service</Typography>
-        <Typography sx={{ marginLeft: 86, fontSize: 25 }}>laser hair reduction</Typography>
-        <Typography sx={{ marginLeft: 86 }} variant="body2" color="text.secondary">more than 2,00,000 laser sessions delivered</Typography>
+      <Box sx={{ backgroundColor: '#a9d6e5', marginTop: 1, marginBottom: 1, }}>
+        <Box sx={{ textAlign: 'center' }}>
+          <Typography sx={{ display: 'inline-flex', margin: 'auto', color: 'red', fontSize: 30, }}>best selling service</Typography>
+          <Typography sx={{ margin: 'auto', fontSize: 25 }}>laser hair reduction</Typography>
+          <Typography sx={{ margin: 'auto', }} variant="body2" color="text.secondary">more than 2,00,000 laser sessions delivered</Typography>
+        </Box>
 
-        <Container sx={{ display: 'flex', justifyContent: 'center', marginTop: 1, }}>
 
-          <Card sx={{ marginTop: 5, marginBottom: 5, marginRight: 10, border: 1, maxWidth: 345 }}>
+        <Container sx={{ display: 'flex', justifyContent: 'center', marginTop: 1, flexDirection: "row", flexWrap: 'wrap' }}>
+
+          <Card sx={{ marginTop: 5, marginBottom: 5, border: 1, maxWidth: 300 }}>
             <CardActionArea>
               <CardMedia
                 component="img"
@@ -136,7 +141,7 @@ const Upper1 = () =>
               </CardContent>
             </CardActionArea>
           </Card>
-          <Card sx={{ marginTop: 5, marginBottom: 5, border: 1, maxWidth: 400 }}>
+          <Card sx={{ marginTop: 5, marginBottom: 5, marginLeft: 5, marginRight: 5, border: 1, maxWidth: 300 }}>
             <CardActionArea>
               <CardMedia
                 component="img"
@@ -154,7 +159,7 @@ const Upper1 = () =>
               </CardContent>
             </CardActionArea>
           </Card>
-          <Card sx={{ marginLeft: 10, marginTop: 5, marginBottom: 5, border: 1, maxWidth: 345 }}>
+          <Card sx={{ marginTop: 5, marginBottom: 5, border: 1, maxWidth: 300 }}>
             <CardActionArea>
               <CardMedia
                 component="img"

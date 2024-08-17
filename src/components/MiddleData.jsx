@@ -12,9 +12,9 @@ const MiddleData = () =>
     <Container sx={{}}>
       <Typography sx={{ fontSize: 30 }}>hydra facial treatments</Typography>
       <Typography variant="body2" color="text.secondary">dermat-customized & non-invasive facial for optimal skin rejuvenation</Typography>
-      <Container sx={{ display: 'flex', justifyContent: 'center', marginTop: 1, }}>
+      <Container sx={{ display: 'flex', justifyContent: 'center', flexWrap: 'wrap', marginTop: 1, }}>
 
-        <Card sx={{ marginTop: 5, marginBottom: 5, marginRight: 10, border: 1, maxWidth: 345 }}>
+        <Card sx={{ marginTop: 5, marginBottom: 5, border: 1, maxWidth: 300 }}>
           <CardActionArea>
             <CardMedia
               component="img"
@@ -32,7 +32,7 @@ const MiddleData = () =>
             </CardContent>
           </CardActionArea>
         </Card>
-        <Card sx={{ marginTop: 5, marginBottom: 5, border: 1, maxWidth: 345 }}>
+        <Card sx={{ marginTop: 5, marginBottom: 5, marginLeft: 5, marginRight: 5, border: 1, maxWidth: 300 }}>
           <CardActionArea>
             <CardMedia
               component="img"
@@ -50,7 +50,7 @@ const MiddleData = () =>
             </CardContent>
           </CardActionArea>
         </Card>
-        <Card sx={{ marginLeft: 10, marginTop: 5, marginBottom: 5, border: 1, maxWidth: 345 }}>
+        <Card sx={{ marginTop: 5, marginBottom: 5, border: 1, maxWidth: 300 }}>
           <CardActionArea>
             <CardMedia
               component="img"
@@ -77,9 +77,9 @@ const MiddleData = () =>
       <Typography sx={{ fontSize: 30 }}>dermafacial treatments</Typography>
       <Typography variant="body2" color="text.secondary">dermatologist- designed facials using new-age technology to elevate your skincare game</Typography>
 
-      <Container sx={{ display: 'flex', justifyContent: 'center', marginTop: 1, }}>
+      <Container sx={{ display: 'flex', justifyContent: 'center', marginTop: 1, flexWrap: 'wrap' }}>
 
-        <Card sx={{ marginTop: 5, marginBottom: 5, marginRight: 10, border: 1, maxWidth: 345 }}>
+        <Card sx={{ marginTop: 5, marginBottom: 5, border: 1, maxWidth: 300 }}>
           <CardActionArea>
             <CardMedia
               component="img"
@@ -97,7 +97,7 @@ const MiddleData = () =>
             </CardContent>
           </CardActionArea>
         </Card>
-        <Card sx={{ marginTop: 5, marginBottom: 5, border: 1, maxWidth: 345 }}>
+        <Card sx={{ marginTop: 5, marginBottom: 5, marginLeft: 5, marginRight: 5, border: 1, maxWidth: 300 }}>
           <CardActionArea>
             <CardMedia
               component="img"
@@ -115,7 +115,7 @@ const MiddleData = () =>
             </CardContent>
           </CardActionArea>
         </Card>
-        <Card sx={{ marginLeft: 10, marginTop: 5, marginBottom: 5, border: 1, maxWidth: 345 }}>
+        <Card sx={{ marginTop: 5, marginBottom: 5, border: 1, maxWidth: 300 }}>
           <CardActionArea>
             <CardMedia
               component="img"
@@ -135,7 +135,7 @@ const MiddleData = () =>
         </Card>
       </Container>
 
-    </Container>
+    </Container >
 
   )
 }

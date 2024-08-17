@@ -9,15 +9,15 @@ import StarIcon from '@mui/icons-material/Star';
 export const Testemonial = () =>
 {
   return (
-    <Container sx={{ border: 0, padding: 1 }}>
+    <Container sx={{ border: 0, padding: 1, flexWrap: 'wrap' }}>
       <Typography color="#ba181b" fontSize={40} fontWeight="bold" textAlign='center'> Love letters
         <Typography marginBottom={2} color="#8b8c89" fontSize={20} textAlign='center'>
           Sweet clients. Sweeter testimonials.
         </Typography>
       </Typography>
 
-      <Box sx={{ margin: 1, marginBottom: 10, display: "center", justifyContent: "center" }}>
-        <Card sx={{ border: 1, borderRadius: "16px", maxWidth: 345 }}>
+      <Box sx={{ margin: 1, marginBottom: 10, display: "center", justifyContent: "center", flexWrap: 'wrap' }}>
+        <Card sx={{ marginTop: 1, border: 1, borderRadius: "16px", maxWidth: 345 }}>
           <CardContent>
             <Typography gutterBottom variant="h5" component="div">
               Rashi Singh
@@ -35,7 +35,7 @@ export const Testemonial = () =>
           </CardContent>
 
         </Card>
-        <Card sx={{ border: 1, marginLeft: 5, marginRight: 5, borderRadius: "16px", maxWidth: 345 }}>
+        <Card sx={{ marginTop: 1, border: 1, marginLeft: 5, marginRight: 5, borderRadius: "16px", maxWidth: 345 }}>
           <CardContent>
             <Typography gutterBottom variant="h5" component="div">
               Suman K
@@ -54,7 +54,7 @@ export const Testemonial = () =>
           </CardContent>
 
         </Card>
-        <Card sx={{ border: 1, borderRadius: "16px", maxWidth: 345 }}>
+        <Card sx={{ marginTop: 1, border: 1, borderRadius: "16px", maxWidth: 345 }}>
           <CardContent>
             <Typography gutterBottom variant="h5" component="div">
               Anusha R
