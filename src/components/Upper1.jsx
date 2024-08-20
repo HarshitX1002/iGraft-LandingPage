@@ -9,7 +9,7 @@ const Upper1 = () =>
 {
   return (
     <>
-      <Box sx={{ marginTop: 40 }}>
+      <Box sx={{ marginTop: 6 }}>
         <Typography sx={{ fontWeight: "bold", color: 'error.main', fontSize: 30, textAlign: 'center' }}>Skin care services</Typography>
 
         <Box sx={{ display: 'flex', justifyContent: 'center', flexDirection: 'row', alignItems: "center", flexWrap: 'wrap' }}>
