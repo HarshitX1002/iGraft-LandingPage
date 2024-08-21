@@ -12,7 +12,7 @@ const Middle2 = () =>
           How iGraft work
 
         </Typography>
-        <Grid sx={{ border: 0, marginTop: 2, marginBottom: 5, padding: 5, display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)' }}>
+        <Grid container direction="column" sx={{ border: 0, marginTop: 2, marginBottom: 5, padding: 5, display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', flexWrap: "wrap" }}>
           <Box
             display="flex"
             flexDirection="column"
