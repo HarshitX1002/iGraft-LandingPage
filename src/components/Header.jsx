@@ -24,10 +24,10 @@ const Header = () =>
   };
   return (
     <Box sx={{ flexGrow: 1 }} >
-      <AppBar sx={{ backgroundColor: "#034078", position: "sticky" }}>
+      <AppBar sx={{ backgroundColor: "#034078", position: "sticky", flexWrap: 'wrap' }}>
         <Toolbar>
 
-          <Box sx={{ border: 0, display: 'flex', justifyContent: "center", flexGrow: 1, alignItems: 'center' }}>
+          <Box sx={{ border: 0, display: 'flex', justifyContent: "center", flexGrow: 1, alignItems: 'center', flexWrap: 'wrap' }}>
             <IconButton
               size="large"
               edge="start"
@@ -55,7 +55,7 @@ const Header = () =>
 
 
 
-          <Button alignitems="right" color="inherit" onClick={handleOpenLogin}>Login</Button>
+          <Button alignitems="right" color="inherit" onClick={handleOpenLogin} flexWrap='wrap' >Login</Button>
         </Toolbar>
       </AppBar>
       <LoginPopup open={openLogin} onClose={handleCloseLogin} />

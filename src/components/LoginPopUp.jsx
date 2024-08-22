@@ -11,11 +11,17 @@ const LoginPopup = ({ open, onClose }) =>
                     top: '50%',
                     left: '50%',
                     transform: 'translate(-50%, -50%)',
-                    width: 300,
+                    width: {
+                        xs: '90%', // 90% of the screen width on extra-small screens
+                        sm: '80%', // 80% of the screen width on small screens
+                        md: 400,   // 400px width on medium and larger screens
+                    },
+
                     bgcolor: 'background.paper',
                     boxShadow: 24,
                     p: 4,
                     borderRadius: 2,
+
                 }}
             >
                 <Typography variant="h6" component="h2" sx={{ mb: 2 }}>
