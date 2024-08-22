@@ -7,12 +7,19 @@ const Middle2 = () =>
 {
   return (
     <>
-      <Container sx={{ padding: 1, marginBottom: 5 }}>
+      <Container sx={{ padding: 1, marginBottom: 5, flexWrap: "wrap" }}>
         <Typography color='#ba181b' fontSize={50} textAlign='center' fontWeight={'bold'}>
           How iGraft work
 
         </Typography>
-        <Grid container direction="column" sx={{ border: 0, marginTop: 2, marginBottom: 5, padding: 5, display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', flexWrap: "wrap" }}>
+        <Box sx={{
+          border: 0, marginTop: 2, marginBottom: 5, padding: 5, display: 'grid', gridTemplateColumns: {
+            xs: '1fr',       // 1 column on extra-small screens
+            sm: 'repeat(1, 1fr)',
+            md: 'repeat(4, 1fr)',
+            lg: 'repeat(4, 1fr)',
+          }, flexDirection: 'row', flexWrap: "wrap"
+        }}>
           <Box
             display="flex"
             flexDirection="column"
@@ -102,23 +109,36 @@ const Middle2 = () =>
             </Typography>
 
           </Box>
-        </Grid>
-        <Box sx={{ backgroundColor: "#caf0f8", border: 1, borderRadius: '16px', marginTop: 20, marginBottom: 10, padding: 11 }}>
-          <Box sx={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)' }}>
-            <Typography sx={{ color: "#595959", margin: 1 }} fontSize={30} fontWeight={'bold'}>
-              Skincare is self-care.
-              so we made it affordable.
-              EMI always helps
+        </Box>
+        <Box sx={{ backgroundColor: "#caf0f8", border: 1, borderRadius: '16px', marginTop: 20, marginBottom: 10, padding: 11, }}>
+          <Box sx={{
+            display: 'grid', gridTemplateColumns: {
+              xs: '1fr',       // 1 column on extra-small screens
+              sm: 'repeat(1, 1fr)', // 2 columns on small screens
+              md: 'repeat(2, 1fr)', // 3 columns on medium screens
+              lg: 'repeat(2, 1fr)', // 4 columns on large screens
+            }, flexWrap: 'wrap'
+          }}>
+            <Box
+            >
+              <Typography sx={{ color: "#595959", margin: 1, }} fontSize={30} fontWeight={'bold'}>
+                Skincare is self-care.
+                so we made it affordable.
+                EMI always helps
 
-            </Typography>
-            <Typography sx={{ color: "#595959", margin: 1 }} fontSize={30} fontWeight={'bold'}>
-              Starting from Rs 330 per month
+              </Typography>
+            </Box>
+            <Box>
+              <Typography sx={{ color: "#595959", margin: 1 }} fontSize={30} fontWeight={'bold'}>
+                Starting from Rs 330 per month
 
-            </Typography>
+              </Typography>
+            </Box>
+
           </Box>
 
         </Box>
-      </Container>
+      </Container >
 
 
     </>

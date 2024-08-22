@@ -17,7 +17,14 @@ const LowerData = () =>
           Stories about skin, skincare and you. Enjoy the show!
         </Typography>
       </Typography>
-      <Box sx={{ marginTop: 2, marginBottom: 5, border: 0, display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', flexWrap: "wrap" }}>
+      <Box sx={{
+        marginTop: 2, marginBottom: 5, border: 0, display: 'grid', gridTemplateColumns: {
+          xs: '1fr',       // 1 column on extra-small screens
+          sm: 'repeat(1, 1fr)', // 2 columns on small screens
+          md: 'repeat(2, 1fr)', // 3 columns on medium screens
+          lg: 'repeat(2, 1fr)', // 4 columns on large screens
+        }, flexWrap: "wrap"
+      }}>
         <Card sx={{ marginLeft: 1, marginTop: 1, marginBottom: 1, border: 1, maxWidth: 500, display: "flex", borderRadius: '16px' }}>
           <CardMedia
             component="img"
@@ -59,7 +66,7 @@ const LowerData = () =>
       </Box>
 
       <Box sx={{ backgroundColor: "#caf0f8", marginBottom: 5, border: 1, padding: 10, borderRadius: "16px", }}>
-        <Typography  fontSize={40} textAlign={'center'} gutterBottom variant="h5" fontWeight="bold" >
+        <Typography fontSize={40} textAlign={'center'} gutterBottom variant="h5" fontWeight="bold" >
           what are you waiting for?
           <Typography variant="body1" color="text.secondary" >
             earn per referral upto

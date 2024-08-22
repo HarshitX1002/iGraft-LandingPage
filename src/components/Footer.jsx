@@ -5,7 +5,14 @@ const Footer = () =>
 {
   return (
     <Box sx={{ backgroundColor: "#e3f2fd", marginTop: 1, border: 0, paddingTop: 2, paddingBottom: 10 }}>
-      <Container sx={{ display: 'grid', rowGap: 1, gridTemplateColumns: 'repeat(6 ,1fr)' }} >
+      <Container sx={{
+        display: 'grid', rowGap: 1, gridTemplateColumns: {
+          xs: '1fr',       // 1 column on extra-small screens
+          sm: 'repeat(1, 1fr)', // 2 columns on small screens
+          md: 'repeat(6, 1fr)', // 3 columns on medium screens
+          lg: 'repeat(6, 1fr)', // 4 columns on large screens
+        }
+      }} >
         <Typography sx={{ fontWeight: "bold", color: "#6c757d" }}>iGraft</Typography>
         <Typography sx={{ color: "#6c757d" }}>Company
           <List sx={{ color: "#6c757d" }}>
